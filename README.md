@@ -53,10 +53,13 @@ License file included in repository.
 
 ## Summary Evaluation Report
 
-*For this report, express your final conclusions and analysis. Support your findings by using the PNG images that you created.*
+The new SVM model's accuracy was slightly higher than the re-configured Logistic Regression's model, at .55 vs. .52, respectively. The most notable difference between the two is that the SVM's recall and f1-score are significantly higher than the LR's when it comes to predicting the frequency of the target's '1.0' outcome. 
+
+While the precision metric is practically the same for both models, the LR's higher counts for '-1.0' and lower '1.0' recall and f1-score indicate that true positives and negatives were more balanced within the model. This can be seen by comparing the following plots of each model's performance: SVM remained slightly above actual returns on a continuous basis after end of 2018, while LR had a more significant spread from the actual returns line and maintained this from end of 2018 through end of 2020. Thereafter, it's performance declined sharply, a definite indicator of further investigation and model adjustment needed.
 
 
+### SVM Plot:
+![SVM Actual vs. Strategy Plot](./Starter_Code/Resources/svm_actual_vs_strategy_plot.png)
 
-![SVM Actual vs. Strategy Plot](./Resources/svm_actual_vs_strategy_plot.png)
-
-![Logistic Regression Actual vs. Strategy Plot](./Resources/lr_actual_vs_strategy_plot.png)
+### Logistic Regression Plot:
+![Logistic Regression Actual vs. Strategy Plot](./Starter_Code/Resources/lr_actual_vs_strategy_plot.png)
