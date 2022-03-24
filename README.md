@@ -1,4 +1,7 @@
-# Module_14_Challenge: Algorithmic Trading
+# 14: Algorithmic Trading - Signals, Backtest, Machine Learning
+FinTech Boot Camp Module 14 Challenge
+
+---
 
 FinTech Company X's existing trading algorithms have put us ahead of the competition. However, people still need to specifically program these systems, which limits their ability to adapt to new data. Thus, the existing algorithmic trading systems have been improved in order to maintain the firm’s competitive advantage in the market. The existing trading signals have been enhanced with machine learning algorithms that can adapt to new data. The input parameters have been adjusted to optimize the trading algorithm, and a new machine learning model can be trained to compare its performance to that of the baseline model.
 
